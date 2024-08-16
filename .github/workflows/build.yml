@@ -61,7 +61,7 @@ jobs:
     if: github.ref == 'refs/heads/main' || github.event_name == 'release'
     environment:
       name: "GitHub Packages"
-      url: https://github.com/NikiforovAll/results-in-endpoints/packages/
+      url: https://github.com/NikiforovAll/result-endpoints-template/packages/
     permissions:
       packages: write
     runs-on: windows-latest
