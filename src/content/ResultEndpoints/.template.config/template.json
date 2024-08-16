@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Oleksii Nikiforov",
+  "classifications": [
+    "Web",
+    "API",
+    "Ardalis.ApiEndpoints"
+  ],
+  "identity": "Nall.ResultEndpoints",
+  "name": "Result Endpoints",
+  "description": "",
+  "shortName": "result-endpoints-api",
+  "sourceName": "ResultEndpoints",
+  "preferNameDirectory": true,
+  "defaultName": "ResultEndpoints",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "guids": [],
+  "postActions": [],
+  "symbols": {},
+  "sources": []
+}
