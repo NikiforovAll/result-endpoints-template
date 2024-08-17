@@ -48,12 +48,17 @@ builder.Services.ConfigureHttpJsonOptions(opt =>
 
 var app = builder.Build();
 
+app.UseStaticFiles();
+
 app.MapControllers();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.InjectStylesheet("/swagger-ui/theme-muted.css");
+    });
 }
 
 if (!app.Environment.IsDevelopment())
